@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab1.3</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="username">Tài khoản: </string>
+    <string name="password">Mật khẩu: </string>
+    <string name="signup">Đăng ký</string>
+    
+    <string name="sign_in_via_facebook">Đăng nhập bằng Facebook</string>
+    <string name="sign_up">Đăng ký</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab1.1</string>
+    <string name="title_code_activity">LinearLayout bằng Code</string>
+    <string name="title_xml_activity">LinearLayout bằng XML</string>
+</resources>

@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color color0
+color color1
+color color2
+color color3
+color color4
+color color5
+color color6
+color color7
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable uit_logo
+id btn_code_layout
+id btn_xml_layout
+layout activity_main
+layout activity_xml
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string title_code_activity
+string title_xml_activity
+style Theme.Lab11

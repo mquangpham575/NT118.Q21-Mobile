@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab2.2</string>
+    <string name="input_hint">Nhập tên</string>
+    <string name="submit_btn">Nhập</string>
+</resources>

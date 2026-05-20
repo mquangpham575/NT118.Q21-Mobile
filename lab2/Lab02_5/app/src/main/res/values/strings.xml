@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab2.5</string>
+    <string name="dish_name_label">Tên món ăn:</string>
+    <string name="dish_thumbnail_label">Hình đại diện:</string>
+    <string name="dish_promotion_label">Khuyến mãi</string>
+    <string name="add_dish_btn">THÊM MÓN ĂN MỚI</string>
+    <string name="add_success">Thêm thành công!</string>
+</resources>

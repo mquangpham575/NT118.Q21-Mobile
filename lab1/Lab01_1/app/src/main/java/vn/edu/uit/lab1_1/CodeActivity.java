@@ -1,0 +1,61 @@
+package vn.edu.uit.lab1_1;
+
+import android.os.Bundle;
+import android.widget.LinearLayout;
+import android.widget.LinearLayout.LayoutParams;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class CodeActivity extends AppCompatActivity {
+
+    private LinearLayout llNameContainer, llAddressContainer, llParentContainer;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        // Initialize programmatic layouts and set parent container as content view.
+        super.onCreate(savedInstanceState);
+        createNameContainer();
+        createAddressContainer();
+        createParentContainer();
+        setContentView(llParentContainer);
+    }
+
+    private void createNameContainer() {
+        // Create horizontal container with Name labels.
+        llNameContainer = new LinearLayout(this);
+        llNameContainer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+        llNameContainer.setOrientation(LinearLayout.HORIZONTAL);
+        
+        TextView tvName = new TextView(this);
+        tvName.setText("Tên: ");
+        llNameContainer.addView(tvName);
+        
+        TextView tvNameValue = new TextView(this);
+        tvNameValue.setText("John Doe");
+        llNameContainer.addView(tvNameValue);
+    }
+
+    private void createAddressContainer() {
+        // Create horizontal container with Address labels.
+        llAddressContainer = new LinearLayout(this);
+        llAddressContainer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+        llAddressContainer.setOrientation(LinearLayout.HORIZONTAL);
+        
+        TextView tvAddress = new TextView(this);
+        tvAddress.setText("Địa chỉ: ");
+        llAddressContainer.addView(tvAddress);
+        
+        TextView tvAddressValue = new TextView(this);
+        tvAddressValue.setText("911 Hollywood Blvd");
+        llAddressContainer.addView(tvAddressValue);
+    }
+
+    private void createParentContainer() {
+        // Create vertical parent container and append child containers.
+        llParentContainer = new LinearLayout(this);
+        llParentContainer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
+        llParentContainer.setOrientation(LinearLayout.VERTICAL);
+        llParentContainer.addView(llNameContainer);
+        llParentContainer.addView(llAddressContainer);
+    }
+}

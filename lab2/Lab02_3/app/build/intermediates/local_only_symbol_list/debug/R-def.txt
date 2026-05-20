@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color green
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable uit_logo
+id btn_submit
+id et_id
+id et_name
+id lv_employees
+id rd_chinhthuc
+id rd_thoivu
+id rg_type
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string add_employee_btn
+string app_name
+string employee_id_label
+string employee_name_label
+string employee_type_fulltime
+string employee_type_label
+string employee_type_parttime
+string title_text
+style Theme.Lab23

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab2.6</string>
+    <string name="employee_id_label">Nhập Mã:</string>
+    <string name="employee_fullname_label">Nhập Tên:</string>
+    <string name="employee_is_manager_label">Là Quản lý</string>
+    <string name="staff">Staff</string>
+    <string name="add_btn">THÊM</string>
+</resources>

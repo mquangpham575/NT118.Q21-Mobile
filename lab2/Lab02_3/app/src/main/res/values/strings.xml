@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab2.3</string>
+    <string name="employee_id_label">Mã NV: </string>
+    <string name="employee_name_label">Tên NV: </string>
+    <string name="employee_type_label">Loại NV: </string>
+    <string name="employee_type_fulltime">Chính thức</string>
+    <string name="employee_type_parttime">Thời vụ</string>
+    <string name="add_employee_btn">Nhập NV</string>
+    <string name="title_text">Quản lý nhân viên</string>
+</resources>
