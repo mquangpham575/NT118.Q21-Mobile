@@ -10,18 +10,18 @@ public enum Thumbnail {
     private int img;
 
     Thumbnail(String name, int img) {
-        // Initialize enum value with name and image resource id.
+        
         this.name = name;
         this.img = img;
     }
 
     public String getName() {
-        // Return name.
+        
         return name;
     }
 
     public int getImg() {
-        // Return image resource ID.
+        
         return img;
     }
 }

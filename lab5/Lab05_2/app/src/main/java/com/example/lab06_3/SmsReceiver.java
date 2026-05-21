@@ -34,7 +34,7 @@ public class SmsReceiver extends BroadcastReceiver {
                 }
             }
 
-            // Create ArrayList of OriginatingAddress of messages vhich
+            
             ArrayList<String> addresses = new ArrayList<>();
 
             for (SmsMessage message : messages) {
@@ -45,7 +45,7 @@ public class SmsReceiver extends BroadcastReceiver {
             }
             if (addresses.size() > 0) {
                 if (!MainActivity.isRunning) {
-                    // Start Mainactivity if it stopped
+                    
                     Intent iMain = new Intent(context,MainActivity.class);
                     iMain.putStringArrayListExtra(SMS_MESSAGE_ADDRESS_KEY, addresses);
                     iMain.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK );

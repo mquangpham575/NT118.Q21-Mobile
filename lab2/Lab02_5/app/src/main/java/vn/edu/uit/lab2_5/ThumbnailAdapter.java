@@ -14,14 +14,14 @@ import java.util.List;
 public class ThumbnailAdapter extends ArrayAdapter<Thumbnail> {
 
     public ThumbnailAdapter(@NonNull Context context, int resource, @NonNull List<Thumbnail> objects) {
-        // Initialize spinner adapter.
+        
         super(context, resource, objects);
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        // Set layout for selected item in spinner (only showing name).
+        
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_selected_thumbnail, parent, false);
         }
@@ -37,7 +37,7 @@ public class ThumbnailAdapter extends ArrayAdapter<Thumbnail> {
 
     @Override
     public View getDropDownView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        // Set layout for dropdown list items (showing name and image).
+        
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_thumbnail, parent, false);
         }

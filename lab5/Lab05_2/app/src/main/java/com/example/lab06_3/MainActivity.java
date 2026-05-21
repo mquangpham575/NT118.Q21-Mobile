@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.notifyDataSetChanged ();
         reentrantLock.unlock();
 
-        // Send the message
+        
         SmsManager sms = SmsManager.getDefault();
         sms.sendTextMessage(to, null, response, null, null);
     }
@@ -81,13 +81,13 @@ public class MainActivity extends AppCompatActivity {
                 adapter.notifyDataSetChanged();
                 reentrantLock.unlock();
             }
-            // Check to response automatically
+            
 
             if (swAutoResponse.isChecked()) respond(true);
         }
     }
     private void handleOnClickListenner() {
-        // Handle onClickListenner
+        
         System.out.println("4444444");
         btnSafe.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) llButtons.setVisibility(View.GONE);
                 else llButtons.setVisibility(View.VISIBLE);
-                // Save auto response setting
+                
                 editor.putBoolean(AUTO_RESPONSE, isChecked);
                 editor.commit();
             }
@@ -116,10 +116,10 @@ public class MainActivity extends AppCompatActivity {
         broadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
-                // Get ArrayList addresses
+                
                 ArrayList<String> addresses = intent.getStringArrayListExtra(SmsReceiver.SMS_MESSAGE_ADDRESS_KEY);
                 System.out.println("*********"+addresses);
-                // Process these addresses
+                
                 processReceiveAddresses(addresses);
             }
         };
@@ -132,9 +132,9 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("66666666");
         super.onResume();
         isRunning = true;
-        // Make sure broadcastReceiver was inited
+        
         if (broadcastReceiver == null) initBroadcastReceiver();
-        // RegisterReceiver
+        
         IntentFilter intentFilter = new IntentFilter(SmsReceiver.SMS_FORWARD_BROADCAST_RECEIVER);
         registerReceiver(broadcastReceiver, intentFilter);
     }
@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
         System.out.println("7777777");
         isRunning = false;
-        // UnregisterReceiver
+        
         unregisterReceiver(broadcastReceiver);
 
     }
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_list_item_1, requesters);
         lvMessages.setAdapter(adapter);
 
-        // Load auto response setting
+        
         boolean autoResponse = sharedPreferences.
                 getBoolean(AUTO_RESPONSE, false);
         swAutoResponse.setChecked(autoResponse);
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
                 processReceiveAddresses(addresses);
             }
         } catch (Exception e) {
-            // This will catch any exception, because they are all descended from Exception
+            
             System.out.println("Error " + e.getMessage());
         }
 

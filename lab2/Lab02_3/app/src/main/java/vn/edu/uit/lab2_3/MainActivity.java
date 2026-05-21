@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize views, lists, adapters, and set click listeners.
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -41,14 +41,14 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Trigger employee creation and list update.
+                
                 addNewEmployee();
             }
         });
     }
 
     public void addNewEmployee() {
-        // Create an employee object, populate its details, and add to list.
+        
         int checkedId = rgType.getCheckedRadioButtonId();
         String id = etId.getText().toString().trim();
         String name = etName.getText().toString().trim();

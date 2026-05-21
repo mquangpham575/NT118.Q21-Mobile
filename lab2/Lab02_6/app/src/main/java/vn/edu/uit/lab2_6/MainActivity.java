@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize views, lists, LayoutManager, RecyclerView adapter, and click events.
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Add new employee item and notify the RecyclerView adapter of updates.
+                
                 String id = etId.getText().toString().trim();
                 String fullName = etFullName.getText().toString().trim();
                 boolean isManager = cbManager.isChecked();

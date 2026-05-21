@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize the ListView and bind the array adapter and item click listener.
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         lvPerson.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Update the selection text display with selected index and value.
+                
                 tvSelection.setText("vị trí: " + position + " ; giá trị = " + arr[position]);
             }
         });

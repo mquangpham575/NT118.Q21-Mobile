@@ -6,42 +6,42 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml
+8-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml
+9-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:5:5-22:19
+11-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
-12-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.8.0] C:\Users\QUANG\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:7:9-43
+15-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:8:9-41
+16-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:9:9-54
+17-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:10:9-35
+18-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:10:9-35
 19        android:theme="@style/Theme.Lab24" >
-19-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:11:9-43
+19-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:11:9-43
 20        <activity
-20-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:13:9-20:20
+20-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:13:9-20:20
 21            android:name="vn.edu.uit.lab2_4.MainActivity"
-21-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:14:13-41
+21-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:14:13-41
 22            android:exported="true" >
-22-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:15:13-36
+22-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:15:13-36
 23            <intent-filter>
-23-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:16:13-19:29
+23-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:16:13-19:29
 24                <action android:name="android.intent.action.MAIN" />
-24-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:17:17-69
-24-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:17:25-66
+24-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:17:17-69
+24-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:17:25-66
 25
 26                <category android:name="android.intent.category.LAUNCHER" />
-26-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:18:17-77
-26-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab2.4\app\src\main\AndroidManifest.xml:18:27-74
+26-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:18:17-77
+26-->D:\Study\3rd-y\3rdY-Sem2\NT118.Q21-Mobile\lab2\Lab02_4\app\src\main\AndroidManifest.xml:18:27-74
 27            </intent-filter>
 28        </activity>
 29

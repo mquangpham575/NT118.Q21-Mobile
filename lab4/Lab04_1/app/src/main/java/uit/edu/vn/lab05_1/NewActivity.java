@@ -26,7 +26,7 @@ public class NewActivity extends AppCompatActivity {
     @Override
     public void finish() {
         super.finish();
-        // Page 14 transition requirement: Left-to-Right push back (slide_in_left and slide_out_right)
+        
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

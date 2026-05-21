@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize ArrayList, Adapter, and bind button submit, click selection, and long-click deletion.
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Add name from edit text to list and update layout interface.
+                
                 String nameInput = etName.getText().toString().trim();
                 if (!nameInput.isEmpty()) {
                     names.add(nameInput);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         lvPerson.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Show index and value of selected name on click.
+                
                 tvSelection.setText("vị trí: " + position + " , giá trị = " + names.get(position));
             }
         });
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         lvPerson.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                // Delete selected name from list on long click.
+                
                 names.remove(position);
                 adapter.notifyDataSetChanged();
                 return true;

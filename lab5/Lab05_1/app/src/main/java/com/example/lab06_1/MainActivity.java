@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private IntentFilter filter;
     private PowerStateChangeReceiver powerReceiver;
 
-    // XỬ LÝ KHI TIN NHẮN ĐẾN
+    
     public void processReceive(Context context, Intent intent){
 
         Toast.makeText(context, getString(R.string.you_have_a_new_message), Toast.LENGTH_LONG).show();
@@ -40,24 +40,24 @@ public class MainActivity extends AppCompatActivity {
 
                 smsMsg = SmsMessage.createFromPdu((byte[]) messages[i]);
             }
-            // Get message body
+            
             String msgBody = smsMsg.getMessageBody();
 
-            // Get source address of message
+            
             String address = smsMsg.getDisplayOriginatingAddress();
             sms += address +  ":\n" + msgBody + "\n";
 
         }
-        //Show messages in textview
+        
         tvContent.setText(sms);
     }
     private void initBroadcastReceiver() {
 
-        // Create filter to list:
+        
         filter = new IntentFilter("android.provider.Telephony.SMS_RECEIVED");
-        // Create broadcastReceiver
+        
         broadcastReceiver = new BroadcastReceiver() {
-            // Process when message comes
+            
             public void onReceive(Context context, Intent intent) {
                 processReceive(context, intent);
             }
@@ -66,12 +66,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        // Make sure broadcastReceiver was created
+        
         if (broadcastReceiver == null) initBroadcastReceiver();
-        // Register Receiver
+        
         registerReceiver(broadcastReceiver, filter);
 
-        // Dynamically register power receiver for Android 8.0+ compatibility on physical devices
+        
         powerReceiver = new PowerStateChangeReceiver();
         IntentFilter powerFilter = new IntentFilter();
         powerFilter.addAction(Intent.ACTION_POWER_CONNECTED);
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        // UnregisterReceiver when app is destroyed
+        
         unregisterReceiver(broadcastReceiver);
         if (powerReceiver != null) {
             unregisterReceiver(powerReceiver);

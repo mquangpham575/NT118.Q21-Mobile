@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "vn.edu.uit.lab03_1.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "vn.edu.uit.lab03_1.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\layout_dialog_student.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\layout\\dialog_student.xml"
+    },
+    {
+        "merged": "vn.edu.uit.lab03_1.app-merged_res-29:/layout_item_student.xml.flat",
+        "source": "vn.edu.uit.lab03_1.app-main-31:/layout/item_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\layout_item_student.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\layout\\item_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "vn.edu.uit.lab03_1.app-merged_res-29:/layout_activity_detail.xml.flat",
+        "source": "vn.edu.uit.lab03_1.app-main-31:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\drawable_uit_logo.png.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\drawable\\uit_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QUANG\\.gradle\\daemon\\7.3.3\\vn.edu.uit.lab03_1.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    }
+]

@@ -14,14 +14,14 @@ public class EmployeeAdapter extends ArrayAdapter<Employee> {
     private Activity context;
 
     public EmployeeAdapter(Activity context, int layoutID, List<Employee> objects) {
-        // Initialize the custom adapter.
+        
         super(context, layoutID, objects);
         this.context = context;
     }
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        // Inflate layout, populate views with employee details, and set alternating backgrounds.
+        
         if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.item_employee, parent, false);
         }

@@ -12,7 +12,7 @@ public class CodeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize programmatic layouts and set parent container as content view.
+        
         super.onCreate(savedInstanceState);
         createNameContainer();
         createAddressContainer();
@@ -21,7 +21,7 @@ public class CodeActivity extends AppCompatActivity {
     }
 
     private void createNameContainer() {
-        // Create horizontal container with Name labels.
+        
         llNameContainer = new LinearLayout(this);
         llNameContainer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
         llNameContainer.setOrientation(LinearLayout.HORIZONTAL);
@@ -36,7 +36,7 @@ public class CodeActivity extends AppCompatActivity {
     }
 
     private void createAddressContainer() {
-        // Create horizontal container with Address labels.
+        
         llAddressContainer = new LinearLayout(this);
         llAddressContainer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
         llAddressContainer.setOrientation(LinearLayout.HORIZONTAL);
@@ -51,7 +51,7 @@ public class CodeActivity extends AppCompatActivity {
     }
 
     private void createParentContainer() {
-        // Create vertical parent container and append child containers.
+        
         llParentContainer = new LinearLayout(this);
         llParentContainer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
         llParentContainer.setOrientation(LinearLayout.VERTICAL);

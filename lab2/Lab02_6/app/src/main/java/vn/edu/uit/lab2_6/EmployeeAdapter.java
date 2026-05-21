@@ -16,7 +16,7 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
     private List<Employee> employees;
 
     public EmployeeAdapter(Context context, List<Employee> employees) {
-        // Initialize the RecyclerView adapter.
+        
         this.context = context;
         this.employees = employees;
     }
@@ -24,14 +24,14 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        // Inflate the item layout and create a new ViewHolder.
+        
         View view = LayoutInflater.from(context).inflate(R.layout.item_employee, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        // Bind employee data to the item view and alternate row background colors.
+        
         Employee employee = employees.get(position);
 
         if (employee.getFullName() != null) {
@@ -58,7 +58,7 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
 
     @Override
     public int getItemCount() {
-        // Return total size of employees list.
+        
         return employees.size();
     }
 
@@ -69,7 +69,7 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
         LinearLayout llParent;
 
         public ViewHolder(@NonNull View itemView) {
-            // Bind view elements from the inflated item layout.
+            
             super(itemView);
             tvFullName = itemView.findViewById(R.id.item_employee_tv_fullname);
             tvPosition = itemView.findViewById(R.id.item_employee_tv_position);

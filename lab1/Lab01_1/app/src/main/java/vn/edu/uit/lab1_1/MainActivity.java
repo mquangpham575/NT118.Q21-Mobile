@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize activity view and navigation buttons.
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnCodeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Navigate to programmatic LinearLayout screen.
+                
                 startActivity(new Intent(MainActivity.this, CodeActivity.class));
             }
         });
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         btnXmlLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Navigate to XML LinearLayout screen.
+                
                 startActivity(new Intent(MainActivity.this, XmlActivity.class));
             }
         });

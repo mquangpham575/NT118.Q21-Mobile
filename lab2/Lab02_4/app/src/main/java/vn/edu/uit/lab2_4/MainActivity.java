@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize views, lists, custom adapters, and register submit events.
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Add new employee with the custom adapter and clear inputs.
+                
                 String id = etId.getText().toString().trim();
                 String fullName = etFullName.getText().toString().trim();
                 boolean isManager = cbManager.isChecked();

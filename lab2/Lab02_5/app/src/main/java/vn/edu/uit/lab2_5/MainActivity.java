@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Initialize views, load spinner, configure gridview, and register addition events.
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnAddDish = findViewById(R.id.btn_add_dish);
         GridView gvDishes = findViewById(R.id.gv_dishes);
 
-        // Load Spinner with Thumbnail values
+        
         ThumbnailAdapter thumbnailAdapter = new ThumbnailAdapter(
                 this,
                 R.layout.item_selected_thumbnail,
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         );
         spThumbnail.setAdapter(thumbnailAdapter);
 
-        // Initialize dishes list and adapter
+        
         dishes = new ArrayList<>();
         dishAdapter = new DishAdapter(this, R.layout.item_dish, dishes);
         gvDishes.setAdapter(dishAdapter);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         btnAddDish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Add new dish, reset form fields, and notify grid update.
+                
                 String name = etDishName.getText().toString().trim();
                 if (name.isEmpty()) {
                     return;

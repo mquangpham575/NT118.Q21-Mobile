@@ -11,7 +11,7 @@
     <string name="app_name">Lab2.2</string>
     <string name="input_hint">Nhập tên</string>
     <string name="submit_btn">Nhập</string>
-    <style name="Theme.Lab22" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Lab22" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>

@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         findViewsByIds();
         initVariables();
 
-        // 1. Handlers for XML animations (Exercise 1)
+        
         handleClickAnimationXml(btnFadeInXml, R.anim.anim_fade_in);
         handleClickAnimationXml(btnFadeOutXml, R.anim.anim_fade_out);
         handleClickAnimationXml(btnBlinkXml, R.anim.anim_blink);
@@ -110,41 +110,41 @@ public class MainActivity extends AppCompatActivity {
         handleClickAnimationXml(btnBounceXml, R.anim.anim_bounce);
         handleClickAnimationXml(btnCombineXml, R.anim.anim_combine);
 
-        // 2. Handlers for Code animations (Exercise 2)
-        // Fade In
+        
+        
         final AlphaAnimation fadeIn = new AlphaAnimation(0.0f, 1.0f);
         fadeIn.setDuration(1000);
         fadeIn.setFillAfter(true);
         handleClickAnimationCode(btnFadeInCode, fadeIn);
 
-        // Fade Out
+        
         final AlphaAnimation fadeOut = new AlphaAnimation(1.0f, 0.0f);
         fadeOut.setDuration(1000);
         fadeOut.setFillAfter(true);
         handleClickAnimationCode(btnFadeOutCode, fadeOut);
 
-        // Blink
+        
         final AlphaAnimation blink = new AlphaAnimation(0.0f, 1.0f);
         blink.setDuration(300);
         blink.setRepeatMode(Animation.REVERSE);
         blink.setRepeatCount(3);
         handleClickAnimationCode(btnBlinkCode, blink);
 
-        // Zoom In
+        
         final ScaleAnimation zoomIn = new ScaleAnimation(1f, 3f, 1f, 3f,
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         zoomIn.setDuration(1000);
         zoomIn.setFillAfter(true);
         handleClickAnimationCode(btnZoomInCode, zoomIn);
 
-        // Zoom Out
+        
         final ScaleAnimation zoomOut = new ScaleAnimation(1f, 0.5f, 1f, 0.5f,
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         zoomOut.setDuration(1000);
         zoomOut.setFillAfter(true);
         handleClickAnimationCode(btnZoomOutCode, zoomOut);
 
-        // Rotate
+        
         final RotateAnimation rotate = new RotateAnimation(0f, 360f,
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         rotate.setDuration(600);
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
         rotate.setInterpolator(new CycleInterpolator(1));
         handleClickAnimationCode(btnRotateCode, rotate);
 
-        // Move
+        
         final TranslateAnimation move = new TranslateAnimation(
                 Animation.RELATIVE_TO_PARENT, 0.0f,
                 Animation.RELATIVE_TO_PARENT, 0.75f,
@@ -165,14 +165,14 @@ public class MainActivity extends AppCompatActivity {
         move.setInterpolator(new LinearInterpolator());
         handleClickAnimationCode(btnMoveCode, move);
 
-        // Slide Up
+        
         final ScaleAnimation slideUp = new ScaleAnimation(1f, 1f, 1f, 0f,
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.0f);
         slideUp.setDuration(500);
         slideUp.setFillAfter(true);
         handleClickAnimationCode(btnSlideUpCode, slideUp);
 
-        // Bounce
+        
         final ScaleAnimation bounce = new ScaleAnimation(1f, 1f, 0f, 1f,
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         bounce.setDuration(500);
@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
         bounce.setInterpolator(new BounceInterpolator());
         handleClickAnimationCode(btnBounceCode, bounce);
 
-        // Combine
+        
         final AnimationSet combine = new AnimationSet(true);
         combine.setFillAfter(true);
         combine.setInterpolator(new LinearInterpolator());
@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
         combine.addAnimation(combineRotate);
         handleClickAnimationCode(btnCombineCode, combine);
 
-        // 3. Start New Activity on ivUitLogo click (Exercise 3)
+        
         ivUitLogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
