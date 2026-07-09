@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "vn.edu.uit.lab03_1.app-mergeDebugResources-27:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "vn.edu.uit.lab03_1.app-mergeDebugResources-29:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\QUANG\\.gradle\\caches\\transforms-3\\b26501d9553d08a11b3cfe721422cf55\\transformed\\material-1.7.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\QUANG\\.gradle\\caches\\transforms-3\\2b09c2cd4192fe4b7b686a651ae8eff3\\transformed\\material-1.11.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

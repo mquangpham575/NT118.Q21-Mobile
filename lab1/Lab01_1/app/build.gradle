@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'vn.edu.uit.lab1_1'
     compileSdk 32
 
     defaultConfig {
